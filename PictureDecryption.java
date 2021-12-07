@@ -9,15 +9,15 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-//¹Ï¤ù¸Ñ±K
+//åœ–ç‰‡è§£å¯†
 public class PictureDecryption extends Directory implements ActionListener {
 
 	public void actionPerformed(ActionEvent arg0) {
 
 		try {
-			// ¦Ñ®v¼gªºÅª¨ú¸ê®Æ§¨
+			//
 			File dir = new File(getDpinpath());
-			// ±Nlist¸ê®Æ¥áµ¹°}¦C°µ³B²z
+			// å°‡listè³‡æ–™ä¸Ÿçµ¦é™£åˆ—åšè™•ç†
 			if (dir.isDirectory()) {
 				File[] files = dir.listFiles();
 				for (int i = 0; i < files.length; i++) {
@@ -41,7 +41,7 @@ public class PictureDecryption extends Directory implements ActionListener {
 			}
 		
 
-			// °ïÅ|°lÂÜ
+			// å †ç–Šè¿½è¹¤
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
