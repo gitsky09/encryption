@@ -15,7 +15,7 @@ public class PictureDecryption extends Directory implements ActionListener {
 	public void actionPerformed(ActionEvent arg0) {
 
 		try {
-			//
+			
 			File dir = new File(getDpinpath());
 			// 將list資料丟給陣列做處理
 			if (dir.isDirectory()) {
